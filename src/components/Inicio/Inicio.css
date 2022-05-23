@@ -1,0 +1,13 @@
+.inicio{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    background-color: rgb(255, 0, 115);
+}
+
+.inicio img{
+    padding: 5%;
+    width: 80%;
+    background-color: #1C112D;
+}

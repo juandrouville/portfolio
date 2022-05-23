@@ -1,13 +1,16 @@
 import React from "react";
+import './Inicio.css';
 import img from '../../portfolio-bodoni-white.svg';
-import Animation from '../Animation/animation';
+
 
 function Inicio(){
     return (
-        <div>
+        <div className="inicio">
             <img src={img}/>
-            <Animation/>
+            <div className="violeta"></div>
+            <div className="rosa"></div>
         </div>
+            
     )
 };
 
