@@ -1,12 +1,16 @@
-import logo from './logo.svg';
+
 import './App.css';
+import React from 'react';
+import Inicio from './components/Inicio/Inicio';
 
 function App() {
   return (
-    <div className="App">
-      <h1>Portfolio Juan Achu Drouville</h1>
+    <div className='app'>
+    <Inicio/>
     </div>
   );
 }
+  
+ 
 
 export default App;
