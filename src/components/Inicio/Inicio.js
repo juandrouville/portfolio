@@ -1,14 +1,15 @@
 import React from "react";
 import './Inicio.css';
 import img from '../../portfolio-bodoni-white.svg';
-
+import Header from "../Header/Header";
 
 
 
 function Inicio(){
+   
     return (
-        <div className="inicio">
-            <img src={img}/>
+        <div>
+            <Header/>
         </div>
             
     )
